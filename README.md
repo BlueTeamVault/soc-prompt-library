@@ -52,6 +52,17 @@ An LLM-invented field name that silently returns zero rows beats no detection in
 
 These prompts assist a trained analyst. They are not security, legal or compliance advice, and they don't replace your judgement.
 
+## The full library
+
+This repo is the alert-triage workflow plus four samples. The complete library covers six workflows end to end:
+
+- 200 prompts: triage, detection writing, phishing, threat intel, IR comms, exec and board reporting
+- An advanced pack: 30 detection-engineering prompts (AD CS, Kerberos delegation, Golden SAML, OAuth consent abuse, Kubernetes, EDR/ETW tampering, detection-as-code), 18 fill-in IR comms templates, 6 chaining playbooks
+
+[**See all 200 prompt titles**](Blue-Team-Prompt-Vault-CONTENTS.pdf) — the full contents list, free and ungated, no email.
+
+[**Get the Vault**](https://blueteamvault.gumroad.com/l/blueteampromptvault) — PDF and copy-paste Markdown, lifetime v1.x updates, 7-day money-back guarantee.
+
 ## Contributing
 
 Found something wrong, or something that could be sharper? Open an issue. Corrections ship to everyone.
