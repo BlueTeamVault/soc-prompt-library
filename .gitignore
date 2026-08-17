@@ -1,0 +1,36 @@
+# Editor and OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Key material and secrets — never commit these.
+# A passphrase-less private key sat in this folder during setup. It was never
+# tracked, but nothing structural stopped `git add -A` from publishing it.
+# These patterns are that missing control.
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+id_rsa
+id_ecdsa
+id_ed25519
+id_*
+*.pub
+blueteamvault
+blueteamvault.*
+.env
+.env.*
+*.token
+*_token
+.netrc
+_netrc
+
+# Local build and working files
+*.log
+node_modules/
+__pycache__/
+*.py[cod]
